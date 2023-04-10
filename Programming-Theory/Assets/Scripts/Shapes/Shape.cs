@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shape : MonoBehaviour//inheritance
+public class Shape : MonoBehaviour
 {
     
     public virtual void OnMouseDown()//polymorphism 
@@ -12,7 +12,7 @@ public class Shape : MonoBehaviour//inheritance
     }
 
       void DisplayText(string name )//polymorphism
-    {
+    {//abstraction
         string message = $"I am a {name}";
         UIManager.Instance.labelText.text = message;
         Debug.Log(message);

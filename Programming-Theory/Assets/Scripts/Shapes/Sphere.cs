@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sphere : Shape
+public class Sphere : Shape//inheritance
 {
     public override void OnMouseDown()//polymorphism 
     {
-        name = "Sphere";
+        name = "Sphere";//encapsulation
         base.OnMouseDown();
     }
 }

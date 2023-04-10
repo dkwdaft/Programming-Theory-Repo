@@ -7,14 +7,14 @@ using UnityEngine;
 public class UIManager : MonoBehaviour
 {
   public TextMeshProUGUI labelText;
-  public static UIManager Instance;
+  public static UIManager Instance { get; private set; }//encapsulation
 
   private void Awake()
   {
     if (Instance != null)
     {
       Destroy(gameObject);
-      return;
+      
     }
     else
     {

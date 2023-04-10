@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Plane : Shape
+public class Plane : Shape//inheritance
 {
     public override void OnMouseDown()//polymorphism 
     {
-        name = "Plane";
+        name = "Plane";//encapsulation
         base.OnMouseDown();
     }
 }

@@ -348,9 +348,13 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Scripts/Menu.cs"
-"Assets/Scripts/Shape.cs"
-"Assets/Scripts/UIManager.cs"
+"Assets/Scripts/Shapes/Cube.cs"
+"Assets/Scripts/Shapes/Cylinder.cs"
+"Assets/Scripts/Shapes/Plane.cs"
+"Assets/Scripts/Shapes/Shape.cs"
+"Assets/Scripts/Shapes/Sphere.cs"
+"Assets/Scripts/UI/Menu.cs"
+"Assets/Scripts/UI/UIManager.cs"
 -langversion:9.0
 
 /deterministic
